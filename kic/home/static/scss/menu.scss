@@ -1,0 +1,24 @@
+.top-header {
+  background-color: #102d49;
+  padding: 10px 0;
+  li {
+    width: 50px;
+    display: inline;
+    float: right;
+  }
+}
+.menu {
+  width: 30%;
+  .navbar {
+    .navbar-nav {
+      width: 100%;
+      .nav-item {
+        width: 25%;
+        min-width: 80px;
+        .nav-link {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

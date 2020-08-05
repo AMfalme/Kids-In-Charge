@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,300&family=Varela+Round&display=swap");
+a {
+  text-decoration: none;
+}
+
+section {
+  margin: 30px 0;
+}
+section .section-header .section-heading {
+  font-weight: 400;
+  font-size: 21px;
+  text-transform: capitalize;
+  margin: 20px 0;
+  width: 207px;
+  padding: 15px 0;
+  color: #12599c;
+}
+section .section-header .section-heading:after {
+  content: "";
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: #43a3ff;
+  display: block;
+  margin: 15px 0;
+}
+
+.top-header {
+  background-color: #102d49;
+  padding: 10px 0;
+}
+.top-header li {
+  width: 50px;
+  display: inline;
+  float: right;
+}
+
+.menu {
+  width: 30%;
+}
+.menu .navbar .navbar-nav {
+  width: 100%;
+}
+.menu .navbar .navbar-nav .nav-item {
+  width: 25%;
+  min-width: 80px;
+}
+.menu .navbar .navbar-nav .nav-item .nav-link {
+  text-decoration: none;
+}
+
+.main .carousel-item {
+  height: 400px;
+}
+
+.about-section .card {
+  border: none;
+}
+.about-section .card .card-subtitle {
+  margin: 20px 0;
+}
+
+.section-media-pitch {
+  background: linear-gradient(90deg, #102d49 0%, #2929ad 35%, #222050 100%);
+  min-height: 400px;
+  padding: 40px 0;
+  margin: 120px 0;
+}
+.section-media-pitch h1 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 300;
+  font-family: "Nunito", sans-serif;
+}
+.section-media-pitch p {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+  width: 320px;
+}
+.section-media-pitch button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  width: 190px;
+  border-radius: 3px;
+  padding: 17px;
+  color: #fff;
+  font-weight: 100;
+  font-family: "Nunito", sans-serif;
+  margin: 25px 0;
+}
+.section-media-pitch img {
+  margin: -190px 0px 0;
+  height: 580px;
+}
+
+.events-section .section-heading {
+  margin: 0 auto !important;
+}
+.events-section .event-imgs .event-img {
+  position: relative;
+  width: 35%;
+  display: inline-block;
+  height: 250px;
+}
+.events-section .event-imgs .event-img img {
+  width: 100%;
+  height: 100%;
+}
+.events-section .event-imgs .event-img:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(1, 0, 6, 0.65);
+}
+.events-section .event-imgs .event-img p {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding: 20px;
+  z-index: 10;
+  text-align: center;
+}
+.events-section .event-list li {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+.events-section .event-list li:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: #cbb2b30d;
+  height: 1px;
+  display: block;
+  box-shadow: 0em 2em 15px 0px #52131347;
+}
+.events-section .event-list li .event-date {
+  display: inline-block;
+  background-color: #a73116;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+  font-weight: 200;
+  font-family: "";
+}
+.events-section .event-list li .event-title {
+  display: inline-block;
+  color: #a73116;
+  font-size: 20px;
+  position: absolute;
+  margin: 25px 25px;
+}
+
+section.footer {
+  margin-bottom: 0;
+}
+section.footer .top-footer {
+  background-color: #4452ff;
+  padding: 30px;
+  color: #fff;
+}
+section.footer .top-footer .col-md-4 {
+  border-right: 2px solid #5c64d6;
+}
+section.footer .top-footer .col-md-4 i {
+  text-align: center;
+  display: block;
+  font-size: 35px;
+}
+section.footer .top-footer .col-md-4 a {
+  text-align: center;
+  display: block;
+  color: #fff;
+}
+section.footer .footer {
+  background-color: #1b3b70;
+  color: #fff;
+  padding: 30px 0;
+}
+section.footer .footer .figure-logo {
+  max-width: 300px;
+  max-height: 350px;
+}
+section.footer .footer h4 {
+  color: #cf522c;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+section.footer .footer ul {
+  list-style: none;
+}
+section.footer .footer ul li {
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+section.footer .footer ul li a {
+  color: #fff;
+}
+section.footer .footer .socio-media li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=static.css.map */
