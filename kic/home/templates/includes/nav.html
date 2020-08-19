@@ -3,7 +3,7 @@
     {% block logo %}
     <div class="logo">
         <a href="/">
-            <img class="figure-logo ml-5" src="{% static 'images/kid.png' %}" alt="">
+            <img class="figure-logo ml-5" src="{% static 'images/logo.png' %}" alt="">
         </a>
     </div>
     {% endblock %}
@@ -16,6 +16,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="/about-us">About us <span class="sr-only">(current)</span></a>
                     </li>
