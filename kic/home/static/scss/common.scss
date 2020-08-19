@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,300&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,200;1,300&family=Varela+Round&display=swap");
 
-a {
+a,
+a:hover {
   text-decoration: none;
 }
 section {
@@ -24,5 +25,16 @@ section {
         margin: 15px 0;
       }
     }
+  }
+}
+
+.button {
+  &.btn.solid {
+    border: none;
+    width: 200px;
+    padding: 15px;
+    background-color: #102d49;
+    color: #fff;
+    border-radius: 5px;
   }
 }

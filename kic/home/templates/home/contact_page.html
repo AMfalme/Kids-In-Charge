@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block body_class %}template-homepage{% endblock %}
+
+{% block extra_css %}
+
+{% comment %}
+Delete the line below if you're just getting started and want to remove the welcome screen!
+{% endcomment %}
+<link rel="stylesheet" href="{% static 'css/welcome_page.css' %}">
+<link rel="stylesheet" href="{% static 'css/unique_nav.css' %}">
+{% endblock extra_css %}
+
+{% block content %}
+
+{% comment %}
+Delete the line below if you're just getting started and want to remove the welcome screen!
+{% endcomment %}
+{% include 'includes/header.html' %}
+
+
+<div class="contact-page">
+    <section class="contact-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <h1>
+                            Get In Touch
+                        </h1>
+                        <p>
+                            Feel free to leave us a Message and we will get back to you as soon as possible.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <iframe class="map-fade"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63819.15738435325!2d36.72689262845504!3d-1.3582224707987793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc9af1ca7b33c60d0!2sTUSKYS%20ONGATA%20RONGAI%201!5e0!3m2!1sen!2ske!4v1597769001018!5m2!1sen!2ske"
+                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 contact-form-left">
+
+                </div>
+                <div class="col-md-4 contact-form-right">
+                    <h3>
+                        Contact Information
+                    </h3>
+                    <ul class="flex-column d-flex mt-5 ml-2">
+                        <li class="flex-row mb-5">
+                            <i class="fas fa-map-marker-alt"></i>
+
+                            <p class="ml-2">
+                                Rongai,
+                                Tuskys
+                            </p>
+
+                        </li>
+                        <li class="flex-row mb-5">
+                            <i class="fas fa-mobile"></i>
+
+                            <p class="ml-2">
+                                (+254) 725 410 486
+                            </p>
+
+                        </li>
+                        <li class="flex-row mb-5">
+                            <i class="far fa-envelope-open"></i>
+
+                            <p class="ml-2">
+                                email@kidsincharge.co.ke
+                            </p>
+
+                        </li>
+
+                    </ul>
+                    <div class="socio-media ml-2">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+{% include 'includes/footer.html' %}
+{% endblock content %}

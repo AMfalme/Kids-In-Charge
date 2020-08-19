@@ -160,10 +160,17 @@ section.footer {
         }
       }
     }
-    .socio-media {
-      li {
-        display: inline-block;
-        margin-right: 10px;
+  }
+}
+.socio-media {
+  li {
+    display: inline-block;
+    margin-right: 10px;
+    i {
+      font-size: 25px;
+      color: rgba(255, 255, 255, 0.5);
+      &:hover {
+        color: rgba(255, 255, 255, 0.5);
       }
     }
   }

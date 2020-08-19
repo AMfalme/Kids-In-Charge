@@ -1,0 +1,71 @@
+.about-hero {
+  padding-top: 65px;
+  h3 {
+    font-weight: 700;
+    font-size: 45px;
+  }
+  p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+    font-weight: 100;
+    padding: 20px 0;
+  }
+}
+
+.section-about-hero-2 {
+  a.active .about-hero-2 {
+    background-color: rgb(28 0 152 / 88%);
+    border-radius: 5px;
+    .highlight-title {
+      color: #fff;
+    }
+    .highlight-descr {
+      color: #fff;
+    }
+  }
+  .about-hero-2 {
+    box-shadow: 0em 1em 16px 0px #eaeaea;
+    padding: 10px 0 20px 20px;
+    &:hover {
+      background-color: rgb(28 0 152 / 88%);
+      border-radius: 5px;
+      cursor: pointer;
+      .highlight-title {
+        color: #fff;
+      }
+      .highlight-descr {
+        color: #fff;
+      }
+    }
+    .highlight {
+      background-color: #d0522c;
+      padding: 20px;
+      font-size: 25px;
+      font-weight: 900;
+      color: #fff;
+      border-radius: 4px;
+    }
+    .highlight-title,
+    .highlight-descr {
+      padding: 10px 0 0 10px;
+    }
+  }
+  .card {
+    border: none;
+    .card-subtitle {
+      margin-top: 0;
+    }
+    .card-body {
+      padding: 1.25rem 0 0;
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+  .nav-tabs {
+    border-bottom: none;
+  }
+  .nav-item {
+    margin: 10px auto;
+  }
+}

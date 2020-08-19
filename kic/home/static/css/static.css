@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,300&family=Varela+Round&display=swap");
-a {
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,200;1,300&family=Varela+Round&display=swap");
+a,
+a:hover {
   text-decoration: none;
 }
 
@@ -25,6 +26,15 @@ section .section-header .section-heading:after {
   margin: 15px 0;
 }
 
+.button.btn.solid {
+  border: none;
+  width: 200px;
+  padding: 15px;
+  background-color: #102d49;
+  color: #fff;
+  border-radius: 5px;
+}
+
 .top-header {
   background-color: #102d49;
   padding: 10px 0;
@@ -47,6 +57,8 @@ section .section-header .section-heading:after {
 }
 .menu .navbar .navbar-nav .nav-item .nav-link {
   text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
 }
 
 .main .carousel-item {
@@ -202,9 +214,152 @@ section.footer .footer ul li {
 section.footer .footer ul li a {
   color: #fff;
 }
-section.footer .footer .socio-media li {
+
+.socio-media li {
   display: inline-block;
   margin-right: 10px;
+}
+.socio-media li i {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.socio-media li i:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.about-hero {
+  padding-top: 65px;
+}
+.about-hero h3 {
+  font-weight: 700;
+  font-size: 45px;
+}
+.about-hero p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+  font-weight: 100;
+  padding: 20px 0;
+}
+
+.section-about-hero-2 a.active .about-hero-2 {
+  background-color: rgba(28, 0, 152, 0.88);
+  border-radius: 5px;
+}
+.section-about-hero-2 a.active .about-hero-2 .highlight-title {
+  color: #fff;
+}
+.section-about-hero-2 a.active .about-hero-2 .highlight-descr {
+  color: #fff;
+}
+.section-about-hero-2 .about-hero-2 {
+  box-shadow: 0em 1em 16px 0px #eaeaea;
+  padding: 10px 0 20px 20px;
+}
+.section-about-hero-2 .about-hero-2:hover {
+  background-color: rgba(28, 0, 152, 0.88);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.section-about-hero-2 .about-hero-2:hover .highlight-title {
+  color: #fff;
+}
+.section-about-hero-2 .about-hero-2:hover .highlight-descr {
+  color: #fff;
+}
+.section-about-hero-2 .about-hero-2 .highlight {
+  background-color: #d0522c;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 900;
+  color: #fff;
+  border-radius: 4px;
+}
+.section-about-hero-2 .about-hero-2 .highlight-title,
+.section-about-hero-2 .about-hero-2 .highlight-descr {
+  padding: 10px 0 0 10px;
+}
+.section-about-hero-2 .card {
+  border: none;
+}
+.section-about-hero-2 .card .card-subtitle {
+  margin-top: 0;
+}
+.section-about-hero-2 .card .card-body {
+  padding: 1.25rem 0 0;
+}
+.section-about-hero-2 .card .card-body p {
+  font-size: 12px;
+}
+.section-about-hero-2 .nav-tabs {
+  border-bottom: none;
+}
+.section-about-hero-2 .nav-item {
+  margin: 10px auto;
+}
+
+.contact-hero {
+  display: block;
+  position: relative;
+}
+.contact-hero::before {
+  position: absolute;
+  top: -115px;
+  left: 0;
+  background-color: rgba(0, 0, 139, 0.671);
+  content: "";
+  bottom: 0;
+  right: 0;
+  z-index: -10;
+  background: -webkit-radial-gradient(right 60%, rgba(16, 45, 73, 0.75), #0a0965e0, #092945);
+  background: radial-gradient(at right 60%, rgba(16, 45, 73, 0.75), #0a0965e0, #092945);
+}
+.contact-hero h1 {
+  color: #fff;
+  margin: 55px auto;
+}
+.contact-hero p {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 100;
+  font-family: Nunito;
+  width: 331px;
+  line-height: 2;
+}
+.contact-hero .map-fade {
+  opacity: 0.14;
+  transform: rotate(39deg);
+  border-radius: 7%;
+}
+
+.contact-form {
+  margin-top: -200px;
+  margin-bottom: 200px;
+}
+.contact-form .contact-form-left {
+  background-color: #fff;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: 0em 1em 16px 0px #eaeaea;
+}
+.contact-form .contact-form-right {
+  background-color: #21204f;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #fff;
+  padding: 33px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+}
+.contact-form .contact-form-right ul {
+  list-style: none;
+}
+.contact-form .contact-form-right ul li i {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact-form .contact-form-right ul li p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=static.css.map */
