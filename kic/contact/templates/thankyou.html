@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block body_class %}template-thankyou{% endblock %}
+
+{% block content %}
+<h1>Thank you for your suggestion!</h1>
+
+<p>
+    Thanks, {{ contact.name }}! <br>
+    Email: {{ contact.email }} <br>
+    phone: {{contact.phone}} <br>
+    message: {{contact.message}}
+</p>
+{% endblock %}

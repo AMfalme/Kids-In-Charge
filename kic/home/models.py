@@ -9,7 +9,3 @@ class HomePage(Page):
 
 class AboutPage(Page):
     pass
-
-
-class ContactPage(Page):
-    pass
