@@ -3,7 +3,7 @@ from django import forms
 from contact.models import ContactPageMessage
 
 
-class FlavourSuggestionForm(forms.ModelForm):
+class ContactMessageForm(forms.ModelForm):
     """
     A form for sending the message. Here we're using a Django ModelForm, but this could
     be as simple or as complex as you like -
