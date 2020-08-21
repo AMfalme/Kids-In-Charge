@@ -11,6 +11,6 @@ mkvirtualenv *environment_name*
 cd <folder>
 workon *environment_name*
 pip install -r requirements.txt
-python manage runserver
+python manage.py runserver
 
 ```

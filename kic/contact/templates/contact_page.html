@@ -4,12 +4,10 @@
 {% block body_class %}template-homepage{% endblock %}
 
 {% block extra_css %}
-
-{% comment %}
-Delete the line below if you're just getting started and want to remove the welcome screen!
-{% endcomment %}
 <link rel="stylesheet" href="{% static 'css/welcome_page.css' %}">
 <link rel="stylesheet" href="{% static 'css/unique_nav.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/contact-form.css' %}">
 {% endblock extra_css %}
 
 {% block content %}
@@ -47,15 +45,45 @@ Delete the line below if you're just getting started and want to remove the welc
     </section>
     <section class="contact-form">
         <div class="container">
-            <div class="row">
+            <div class="d-flex justify-content-center">
                 <div class="col-md-8 contact-form-left">
-                    <form action="." method="POST">
-                        {% csrf_token %}
+                        <!-- form code -->
+                        <!-- Add your html form code here -->
+                        <form action="." method="POST" style="margin: auto; padding: 50px;">
+                            {% csrf_token %}
+                            <h3 class="d-flex justify-content-front">Send us a message</h3>
+                            <div class="form-row ">
+                                <div class="form-group col-md-6">
+                                    <label for="name">Name:</label>
+                                    <input type="text" class="form-control contact-form-input" id="name" placeholder="Your name" name="name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email address:</label>
+                                    <input type="password" class="form-control contact-form-input" placeholder="Your Email address" name="email">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="phone">Phone:</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Your Phone Number" name="phone">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="company">Company:</label>
+                                    <input type="password" class="form-control contact-form-input" placeholder="Your Company Name" name="comp">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <label for="message">Message:</label>
+                                <textarea class="form-control" id="message" rows="3"></textarea>
+                            </div>
 
-                        {{ form.as_p }}
+                        </form>
 
-                        <p><input type="submit" value="Suggest my flavour"></p>
-                    </form>
+
+
+
+                        <!-- End form code -->
+                        
                 </div>
                 <div class="col-md-4 contact-form-right">
                     <h3>
