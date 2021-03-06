@@ -7,7 +7,7 @@ class ContactMessageForm(forms.ModelForm):
     """
     A form for sending the message. Here we're using a Django ModelForm, but this could
     be as simple or as complex as you like -
-    see https://docs.djangoproject.com/en/1.9/topics/forms/
+    see https://docs.djangoproject.com/en/3.1/topics/forms/modelforms/#modelform
     """
     class Meta:
         model = ContactPageMessage

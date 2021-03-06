@@ -40,7 +40,7 @@ class ContactPage(Page):
                     sent_from = 'steppingstoneswebpage@gmail.com'
                     sent_from_password = 'E8TcPC2z7C8v'
                     to = ["mfalmegriffin@gmail.com", "griffinmfalme@gmail.com"]
-                    subject = "Kids In Charge Website Contact Message"
+                    subject = "Icanary Website Contact Message"
                     body = message.message
 
                     email_body = """

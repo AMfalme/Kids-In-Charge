@@ -19,7 +19,8 @@ body {
 
 a {
   background-color: transparent;
-  color: #cf522c;
+  color: #fff;
+  font-size: 14px;
 }
 
 a:hover {

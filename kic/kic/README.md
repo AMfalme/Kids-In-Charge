@@ -1,4 +1,4 @@
-# How to run Kids In charge
+# How to run Icanary
 
 ### creating a virtual environment.
 

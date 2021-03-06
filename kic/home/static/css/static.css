@@ -36,7 +36,7 @@ section .section-header .section-heading:after {
 }
 
 .top-header {
-  background-color: #102d49;
+  background-color: #c34f22;
   padding: 10px 0;
 }
 .top-header li {
@@ -191,7 +191,7 @@ section.footer .top-footer .col-md-4 a {
   color: #fff;
 }
 section.footer .footer {
-  background-color: #1b3b70;
+  background-color: #0e0e0e;
   color: #fff;
   padding: 30px 0;
 }
@@ -220,8 +220,8 @@ section.footer .footer ul li a {
   margin-right: 10px;
 }
 .socio-media li i {
-  font-size: 25px;
-  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  color: white;
 }
 .socio-media li i:hover {
   color: rgba(255, 255, 255, 0.5);

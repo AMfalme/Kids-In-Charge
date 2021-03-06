@@ -47,43 +47,49 @@ Delete the line below if you're just getting started and want to remove the welc
         <div class="container">
             <div class="d-flex justify-content-center">
                 <div class="col-md-8 contact-form-left">
-                        <!-- form code -->
-                        <!-- Add your html form code here -->
-                        <form action="." method="POST" style="margin: auto; padding: 50px;">
-                            {% csrf_token %}
-                            <h3 class="d-flex justify-content-front">Send us a message</h3>
-                            <div class="form-row ">
-                                <div class="form-group col-md-6">
-                                    <label for="name">Name:</label>
-                                    <input type="text" class="form-control contact-form-input" id="name" placeholder="Your name" name="name">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="email">Email address:</label>
-                                    <input type="password" class="form-control contact-form-input" placeholder="Your Email address" name="email">
-                                </div>
+                    <!-- form code -->
+                    <!-- Add your html form code here -->
+                    <form action="." method="POST" style="margin: auto; padding: 50px;">
+                        {% csrf_token %}
+                        {{ form.name }}
+
+                        <h3 class="d-flex justify-content-front">Send us a message</h3>
+                        <div class="form-row ">
+                            <div class="form-group col-md-6">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control contact-form-input" id="name"
+                                    placeholder="Your name" name="name">
                             </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="phone">Phone:</label>
-                                    <input type="text" class="form-control" id="name" placeholder="Your Phone Number" name="phone">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="company">Company:</label>
-                                    <input type="password" class="form-control contact-form-input" placeholder="Your Company Name" name="comp">
-                                </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">Email address:</label>
+                                <input type="password" class="form-control contact-form-input"
+                                    placeholder="Your Email address" name="email">
                             </div>
-                            <div class="form-row">
-                                <label for="message">Message:</label>
-                                <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="phone">Phone:</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Phone Number"
+                                    name="phone">
                             </div>
+                            <div class="form-group col-md-6">
+                                <label for="company">Company:</label>
+                                <input type="password" class="form-control contact-form-input"
+                                    placeholder="Your Company Name" name="comp">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <label for="message">Message:</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
 
-                        </form>
+                    </form>
 
 
 
 
-                        <!-- End form code -->
-                        
+                    <!-- End form code -->
+
                 </div>
                 <div class="col-md-4 contact-form-right">
                     <h3>
@@ -111,7 +117,7 @@ Delete the line below if you're just getting started and want to remove the welc
                             <i class="far fa-envelope-open"></i>
 
                             <p class="ml-2">
-                                email@kidsincharge.co.ke
+                                email@Icanary.co.ke
                             </p>
 
                         </li>
